@@ -1,0 +1,22 @@
+{
+  "name": "auto-commit-library",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "squash": "node src/cli.js squash",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["git", "auto-commit", "conventional-commits"],
+  "author": "",
+  "license": "ISC",
+  "description": "Library to automatically commit changes and allow squashing with conventional commit messages",
+  "dependencies": {
+    "chokidar": "^4.0.3",
+    "commander": "^11.0.0",
+    "dotenv": "^16.4.7",
+    "inquirer": "^8.2.5",
+    "simple-git": "^3.27.0",
+    "winston": "^3.11.0"
+  }
+}
