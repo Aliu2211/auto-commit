@@ -1,3 +1,4 @@
+
 # Auto Commit Library
 
 This library automatically tracks and commits changes in your Git repository as temporary work-in-progress commits. When you're ready, you can squash these commits into a single meaningful conventional commit.
@@ -88,3 +89,4 @@ Examples:
 - `feat(user-auth): add biometric login`
 - `fix(payment): resolve duplicate transaction issue`
 - `chore(deps): update dependencies`
+
